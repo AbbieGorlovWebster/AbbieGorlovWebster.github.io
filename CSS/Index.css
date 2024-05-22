@@ -291,7 +291,7 @@ ul, ol{
 
 /*Landing Section*/
 .FrontPageTop {
-    background-image: linear-gradient(115deg, rgba(102, 102, 102, 0.5), rgba(102, 102, 102, 0.5) ),url("../../Images/Sheppey Beach.png");
+    background-image: linear-gradient(115deg, rgba(102, 102, 102, 0.5), rgba(102, 102, 102, 0.5));
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -299,6 +299,7 @@ ul, ol{
 }
 
 .FrontPageTopText {
+    position: absolute;
     width: 40%;
 }
 
@@ -323,10 +324,28 @@ ul, ol{
 .JoinButton:hover {
     background-color: rgb(1, 72, 75);
     border-color: rgb(1, 72, 75);
+    color: white;
+}
+
+#Landing .Slide{
+    height:100%;
+    animation-name: scrollingLanding;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrollingLanding{
+    0% {transform: translateX(0%)}
+    25% {transform: translateX(0%)}
+    33% {transform: translateX(-100%)}
+    58% {transform: translateX(-100%)} 
+    66% {transform: translateX(-200%)}
+    91% {transform: translateX(-200%)}
+    100% {transform: translateX(-300%)}
 }
 
 /*Welcome Section, CoCreationCycle Section, AboutUs Section, Our Commitments Section*/
-#Welcome .FlexRow, #CoCreationCycle .FlexRow{
+#CoCreationCycle .FlexRow{
     height: 900px;
 }
 
@@ -361,22 +380,15 @@ ul, ol{
     color: white;
 }
 
-/*Our Commitments Section*/
-#OurCommitments .FlexRow {
-    height: fit-content;
-}
+/*Our Commitments Section, Working Groups Section*/
 
-#OurCommitments {
+#OurCommitments{
     margin-bottom: 100px;
 }
 
-#OurCommitments .vl {
-    background-color: transparent;
-}
-
-/*About Us Section*/
-#AboutUs .FlexRow {
-    height: fit-content;
+#OurCommitments .vl{
+    height: 30vmin;
+    margin: 30px;
 }
 
 /*Founding Section*/
@@ -387,6 +399,16 @@ ul, ol{
 #Founding .TextContainer{
     width: 15%;
     min-width: 200px;
+}
+
+/*Working Groups Section*/
+#WorkingGroups .vl{
+    margin: 30px;
+}
+
+/*Soloutions Section*/
+#RealSoloutions li{
+    padding-bottom: 5%;
 }
 
 /*Newsletter SignUp*/
@@ -465,13 +487,6 @@ footer .ImageContainer {
     margin: 5px;
 }
 
-/*Working Groups*/
-#WorkingGroups .ImageContainer {
-    width: 80%;
-    overflow-y: hidden;
-    height: 300px;
-}
-
 /*Committee*/
 #Committee .FlexRow {
     flex-wrap: wrap;
@@ -485,6 +500,10 @@ footer .ImageContainer {
 .Member .ImageContainer, .Member .TextContainer{
     max-width: 300px;
     overflow: hidden;
+}
+
+.Member .TextContainer{
+    height:163px;
 }
 
 /*IconStack*/
@@ -513,36 +532,8 @@ footer .ImageContainer {
     align-items: normal;
 }
 
-/*HowItWillWork Section*/
-#HowItWillWork .FlexRow{
-    flex-wrap: wrap;
-    width: 80%;
-}
-
-#HowItWillWork .TextContainer {
-    flex-wrap: wrap;
-    width: 50%;
-    padding: 72px 40px 72px 40px;
-}
-
-#HowItWillWork #Advertise {
-    background-image: linear-gradient(0deg, rgba(59, 59, 59, 0.24) 0%, rgba(59, 59, 59, 0.24) 100%), url("../../Images/Newspaper.png");
-    background-size: cover;
-}
-
-#HowItWillWork #Promote {
-    background-image: linear-gradient(0deg, rgba(59, 59, 59, 0.24) 0%, rgba(59, 59, 59, 0.24) 100%),url("../../Images/CloudWoman.png");
-    background-size: cover;
-}
-
-#HowItWillWork #Organise {
-    background-image: linear-gradient(0deg, rgba(59, 59, 59, 0.24) 0%, rgba(59, 59, 59, 0.24) 100%),url("../../Images/Rubbish.png");
-    background-size: cover;
-}
-
-#HowItWillWork #Smile {
-    background-image: linear-gradient(0deg, rgba(59, 59, 59, 0.24) 0%, rgba(59, 59, 59, 0.24) 100%),url("../../Images/Pencil.png");
-    background-size: cover;
+#WellbeingMascotTasks .vl{
+    height: 80vmin;
 }
 
 /*MoreAboutThisProject*/
@@ -555,10 +546,6 @@ footer .ImageContainer {
     padding-left: 30px;
 }
 
-/*Rammi Images*/
-#RammiImages .FlexRow{
-    height: 300px;
-}
 
 /*Events*/
 #Events #Date, #Events #Time {
@@ -600,4 +587,69 @@ input[id^="EventToggle"]:checked ~ .ExpandableDetails {
 
 #Events .hl{
     margin-bottom: 30px;
+}
+
+/*How Will It Work Section*/
+
+#HowItWillWork .Slide{
+    animation-name: scrollingMascot;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrollingMascot{
+    0% {transform: translateX(0%)}
+    20% {transform: translateX(0%)}
+    25% {transform: translateX(-100%)}
+    45% {transform: translateX(-100%)} 
+    50% {transform: translateX(-200%)}
+    70% {transform: translateX(-200%)}
+    75% {transform: translateX(-300%)}
+    95% {transform: translateX(-300%)}
+    100% {transform: translateX(-400%)}
+}
+
+/*Image Slider*/
+.slider{
+    display: flex;
+
+}
+
+.slider-wrapper{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.Slide{
+    flex: 1 0 100%; 
+    overflow: hidden;
+}
+
+.Slide .TextContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    width:100%;
+    height:100%;
+    transform: translate(0, -100%);
+    justify-content: center;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    object-fit: cover;
+
+}
+
+#Landing .slider-wrapper{
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+}
+
+#Landing .slider{
+    height: 100%;
 }
