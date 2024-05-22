@@ -612,7 +612,6 @@ input[id^="EventToggle"]:checked ~ .ExpandableDetails {
 /*Image Slider*/
 .slider{
     display: flex;
-
 }
 
 .slider-wrapper{
@@ -639,9 +638,9 @@ input[id^="EventToggle"]:checked ~ .ExpandableDetails {
 }
 
 .slider img{
+    aspect-ratio: 40/9;
     flex: 1 0 100%;
     object-fit: cover;
-
 }
 
 #Landing .slider-wrapper{
