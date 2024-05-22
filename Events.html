@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="CSS/Index.css" />
+
+    <!--Import font from google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+    <!--Header Buffer-->
+    <div class="HeaderBuffer"></div>
+
+    <!--Events Section-->
+    <section class="FlexColumn" id="Events">
+        <h2 class="BlackText Weight700 Size48">Events</h2>
+
+        <div class="hl Width80"></div>
+
+        <div class="Event Width80">
+            <div class="FlexRow">
+                <div class="TextContainer" id="Date">
+                    <p class="TextCenter BlackText Weight700 Size24 TextLeft">13/12/2023</p>
+                </div>
+
+                <div class="TextContainer" id="Details">
+                    <h2 class="TextCenter BlackText Weight700 Size24 TextLeft">3D Mapping Sheppey (Sign-up required)</h2>
+                    <a class="MoreButton WhiteText Weight700  Size14" href="https://www.eventbrite.co.uk/e/3d-mapping-sheppey-tickets-770715971217"> Sign Up</a>
+                    <input type="checkbox" id="EventToggle0" /> <label for="EventToggle0" class="EventToggleLabel Weight700">Event Details</label>
+                    <div class="ExpandableDetails">
+                        <p class="TextCenter BlackText Weight400 Size18 TextLeft">3D Mapping is a tool we use to bring multiple dimensions and perspectives together so we can see and understand the elements at play on Sheppey. Build models representing what Sheppey is today, and what it could be in the future and discuss how we bridge that gap.</p>
+                    </div>
+                </div>
+
+                <div class="TextContainer" id="Time">
+                    <p class="TextCenter BlackText Weight700 Size24 TextRight">1pm - 3pm</p>
+                    <p class="TextCenter BlackText Weight400 Size18 TextRight">Masters House - Trinity Rd<br /> Sheerness ME12 2PF</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hl Width80"></div>
+
+        <div class="Event Width80">
+            <div class="FlexRow">
+                <div class="TextContainer" id="Date">
+                    <p class="TextCenter BlackText Weight700 Size24 TextLeft">TBD</p>
+                </div>
+
+                <div class="TextContainer" id="Details">
+                    <h2 class="TextCenter BlackText Weight700 Size24 TextLeft">TestEvent</h2>
+                    <input type="checkbox" id="EventToggle1" /> <label for="EventToggle1" class="EventToggleLabel Weight700">Event Details</label>
+                    <div class="ExpandableDetails">
+                        <p class="TextCenter BlackText Weight400 Size18 TextLeft">Testing</p>
+                    </div>
+                </div>
+
+                <div class="TextContainer" id="Time">
+                    <p class="TextCenter BlackText Weight700 Size24 TextRight">TBD</p>
+                    <p class="TextCenter BlackText Weight400 Size18 TextRight">TBD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="hl"></div>
+
+    <!--Newsletter Signup Section-->
+    <section id="NewsletterSignup">
+        <div class="FlexColumn">
+            <h2 class="BlackText TextCenter Size36 Weight700">Want to be involved?</h2>
+            <p class="GreyText TextCenter Size24 Weight400">Subscribe to be among the first to hear from us about plans and events</p>
+
+            <form class="FlexRow">
+                <div class="FormGroup">
+                    <input id="email" name="email" type="email" required />
+                    <label class="NewsletterLabel" for="email">Email</label>
+                </div>
+                <input class="NewsletterSubscribe  Weight700 Size14" type="submit" value="SIGN UP">
+            </form>
+        </div>
+    </section>
+
+    <!--Header-->
+    <div class="FlexRow" id="Header">
+        <div class="ImageContainer"><img src="../../Images/Logo.png" /></div>
+    </div>
+
+    <div class="HeaderSocialMedias Width30 FlexRow">
+        <div class="ImageContainer"><a href="https://www.facebook.com/SheppeyisOurs"><img src="../../Images/Facebook.png" /></a></div>
+        <div class="ImageContainer"><a href="https://www.instagram.com/sheppeyisours/"><img src="../../Images/Instagram.png" /></a></div>
+        <div class="ImageContainer"><a href="https://twitter.com/SheppeyisOurs"><img src="../../Images/Twitter.png" /></a></div>
+    </div>
+
+    <!--Collapsable Menu-->
+    <div id="MenuButton">
+        <input id="MenuCheckbox" type="checkbox">
+        <div class="CollapseMenu FlexColumn">
+            <a class="GreenText Size24 Weight700 TextCenter" href="./Index.html">Home</a>
+            <a class="GreyText Size24 Weight400 TextCenter" href="./AboutUs.html">About Us</a>
+            <a class="GreyText Size24 Weight400 TextCenter" href="./Committee.html">Comittee</a>
+            <div class="ProjectsButton TextCenter">
+                <label for="ProjectCheckbox" class="GreyText Size24 Weight400">Our Current Projects</label><input id="ProjectCheckbox" type="checkbox">
+                <div class="ProjectsMenu FlexColumn">
+                    <a class="GreyText Size24 Weight400 TextCenter" href="./Events.html">Events</a>
+                    <a class="GreyText Size24 Weight400 TextCenter" href="./Mascot.html">Island Mascot</a>
+                </div>
+            </div>
+            <a class="GreyText Size24 Weight400" href="./CoCreation.html">Co-Creation Cycle</a>
+            <a class="GreyText Size24 Weight400" href="./Contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="FlexColumn">
+            <div class="SocialMedias FlexRow">
+                <div class="ImageContainer"><a href="https://www.facebook.com/SheppeyisOurs"><img src="../../Images/Facebook.png" /></a></div>
+                <div class="ImageContainer"><a href="https://www.instagram.com/sheppeyisours/"><img src="../../Images/Instagram.png" /></a></div>
+                <div class="ImageContainer"><a href="https://twitter.com/SheppeyisOurs"><img src="../../Images/Twitter.png" /></a></div>
+            </div>
+
+            <div class="TextContainer TextCenter Width30">
+                <a class="GreyText Weight400 Size14" href="./Contact.html">Contact Us</a>
+            </div>
+
+            <div class="TextContainer TextCenter Width30">
+                <p class="GreyText Weight400 Size14">Copyright &#169 2023 Sheppey is ours! - All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

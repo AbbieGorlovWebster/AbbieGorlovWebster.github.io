@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="CSS/Index.css" />
+
+    <!--Import font from google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+    <!--Header Buffer-->
+    <div class="HeaderBuffer"></div>
+
+    <!--Co-Creation Cycle Section-->
+    <section id="CoCreationCycle">
+        <div class="FlexRow">
+            <div class="ImageContainer Width30">
+                <img src="../../Images/RammiHappy.png" />
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="TextContainer Width30">
+                <h2 class="BlackText Weight700 Size36">The Co&#8209;Creation Cycle</h2>
+                <p class="GreyText Weight400 Size24">The Co&#8209;Creation Cycle can be broken down into three parts. The Friendly, The Inquiry and The Action. We use these as ways to structure our events and expand our movement. The best part is that you can jump into the cycle at any point! Find something that takes your fancy and get involved at your own pace.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="hl"></div>
+
+    <!--The Three Parts-->
+    <section class="FlexColumn" id="ThreeParts">
+        <h2 class="BlackText Size36 Weight700 TextCenter">THE THREE PARTS</h2>
+        <div class="FlexRow Width100">
+            <h3 class="BlackText Weight700 Size24 TextCenter Width25">Co-Create Friendly</h3>
+            <div class="Fakevl"></div>
+            <h3 class="BlackText Weight700 Size24 TextCenter Width25">Co-Create Inquiry</h3>
+            <div class="Fakevl"></div>
+            <h3 class="BlackText Weight700 Size24 TextCenter Width25">Co-Create Action</h3>
+        </div>
+
+        <div class="FlexRow Width100">
+            <div class="ImageContainer Width25"><img src="../../Images/Friendly.png" /></div>
+            <div class="Fakevl"></div>
+            <div class="ImageContainer Width25"><img src="../../Images/Inquiry.png" /></div>
+            <div class="Fakevl"></div>
+            <div class="ImageContainer Width25"><img src="../../Images/Action.png" /></div>
+        </div>
+
+        <div class="FlexRow Width100">
+            <div class="TextContainer Width25">
+                <p class="GreyText TextCenter Size18">Friendly events are designed to engage as many people as possible. From people who normally donate their time, to people who would normally have no interest. Friendly events can come in many different forms. While not finalised we could have art sessions, family sports days, coffee mornings or just anything to get us talking and involved with those in our community. These friendly events hopefully lead to more people getting involved with Inquiry and Action events.</p>
+            </div>
+
+            <div class="Fakevl"></div>
+
+            <div class="TextContainer Width25">
+                <p class="GreyText TextCenter Size18">Inquiry events are more about asking questions and coming up with solutions. We can look at the problems our island faces and imagine ways of combating them. Keep your eyes peeled for an event that you want to have your say in. Our hope is that these Inquiry events will help us create the best Friendly and Action events we can on topics the community really cares about.</p>
+            </div>
+
+            <div class="Fakevl"></div>
+
+            <div class="TextContainer Width25">
+                <p class="GreyText TextCenter Size18">Action events involve getting out and taking action to improve our community. Be it litter picking days, campaigning with our partners for a  better democracy or community trips out to engage with local businesses or museums. Anything that has us taking action to improve our area directly. These Actions highlight how important the Friendlys are to bringing in volunteers.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="hl"></div>
+
+    <!--Newsletter Signup Section-->
+    <section id="NewsletterSignup">
+        <div class="FlexColumn">
+            <h2 class="BlackText TextCenter Size36 Weight700">Want to be involved?</h2>
+            <p class="GreyText TextCenter Size24 Weight400">Subscribe to be among the first to hear from us about plans and events</p>
+
+            <form class="FlexRow">
+                <div class="FormGroup">
+                    <input id="email" name="email" type="email" required />
+                    <label class="NewsletterLabel" for="email">Email</label>
+                </div>
+                <input class="NewsletterSubscribe  Weight700 Size14" type="submit" value="SIGN UP">
+            </form>
+        </div>
+    </section>
+
+    <!--Header-->
+    <div class="FlexRow" id="Header">
+        <div class="ImageContainer"><img src="../../Images/Logo.png" /></div>
+    </div>
+
+    <div class="HeaderSocialMedias Width30 FlexRow">
+        <div class="ImageContainer"><a href="https://www.facebook.com/SheppeyisOurs"><img src="../../Images/Facebook.png" /></a></div>
+        <div class="ImageContainer"><a href="https://www.instagram.com/sheppeyisours/"><img src="../../Images/Instagram.png" /></a></div>
+        <div class="ImageContainer"><a href="https://twitter.com/SheppeyisOurs"><img src="../../Images/Twitter.png" /></a></div>
+    </div>
+
+    <!--Collapsable Menu-->
+    <div id="MenuButton">
+        <input id="MenuCheckbox" type="checkbox">
+        <div class="CollapseMenu FlexColumn">
+            <a class="GreyText Size24 Weight400" href="./Index.html">Home</a>
+            <a class="GreyText Size24 Weight400" href="./AboutUs.html">About Us</a>
+            <a class="GreyText Size24 Weight400" href="./Committee.html">Comittee</a>
+            <div class="ProjectsButton TextCenter">
+                <label for="ProjectCheckbox" class="GreyText Size24 Weight400">Our Current Projects</label><input id="ProjectCheckbox" type="checkbox">
+                <div class="ProjectsMenu FlexColumn">
+                    <a class="GreyText Size24 Weight400" href="./Events.html">Events</a>
+                    <a class="GreyText Size24 Weight400" href="./Mascot.html">Island Mascot</a>
+                </div>
+            </div>
+            <a class="GreenText Size24 Weight700" href="./CoCreation.html">Co-Creation Cycle</a>
+            <a class="GreyText Size24 Weight400" href="./Contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="FlexColumn">
+            <div class="SocialMedias FlexRow">
+                <div class="ImageContainer"><a href="https://www.facebook.com/SheppeyisOurs"><img src="../../Images/Facebook.png" /></a></div>
+                <div class="ImageContainer"><a href="https://www.instagram.com/sheppeyisours/"><img src="../../Images/Instagram.png" /></a></div>
+                <div class="ImageContainer"><a href="https://twitter.com/SheppeyisOurs"><img src="../../Images/Twitter.png" /></a></div>
+            </div>
+
+            <div class="TextContainer TextCenter Width30">
+                <a class="GreyText Weight400 Size14" href="./Contact.html">Contact Us</a>
+            </div>
+
+            <div class="TextContainer TextCenter Width30">
+                <p class="GreyText Weight400 Size14">Copyright &#169 2023 Sheppey is ours! - All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
