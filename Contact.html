@@ -52,10 +52,10 @@
             <h2 class="BlackText Weight700 Size36">We would love to hear from you!</h2>
             <form action="https://api.web3forms.com/submit" method="POST">
                 
-                <!-- Replace with your Access Key -->
                 <input type="hidden" name="access_key" value="2d6bf95b-817c-4112-9f1b-d51bbb716199">
-            
                 
+                <input type="hidden" name="from_name" value="Contact Us Form">
+
                 <div class="FormGroup">
                     <input id="name" name="name" type="text" required />
                     <label class="NewsletterLabel" for="email">Name</label>
@@ -67,6 +67,11 @@
                 </div>
 
                 <div class="FormGroup">
+                    <input id="subject" name="subject" type="subject" required />
+                    <label class="NewsletterLabel" for="subject">Subject</label>
+                </div>
+
+                <div class="FormGroup">
                     <textarea id="message" name="message" required></textarea>
                     <label class="NewsletterLabel" for="email">Message</label>
                 </div>
@@ -75,7 +80,6 @@
                     <div class="h-captcha" data-captcha="true"></div>
                     <button class="MoreButton WhiteText Weight700 Size14" type="submit">Submit Form</button>
                 </div>
-                
             
             </form>
         </div>
