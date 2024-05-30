@@ -430,7 +430,7 @@ ul, ol{
     pointer-events: none;
 }
 
-.FormGroup input {
+.FormGroup input, .FormGroup textarea{
     width: 100%;
     height: 40px;
     font-size: 16px;
@@ -439,16 +439,18 @@ ul, ol{
     background-color: rgba(102, 102, 102, 0.2);
 }
 
-.FormGroup input:focus {
+.FormGroup input:focus, .FormGroup textarea:focus {
     border: 2px solid rgb(1, 72, 75);
 }
 
 .FormGroup input:focus ~ label,
-.FormGroup input:valid ~ label {
-    top: 15%;
+.FormGroup input:valid ~ label
+{
+    top: 20%;
     font-size: 12px;
     color: rgb(1, 72, 75);
 }
+
 
 .NewsletterSubscribe {
     height: 60px;
@@ -651,4 +653,25 @@ input[id^="EventToggle"]:checked ~ .ExpandableDetails {
 
 #Landing .slider{
     height: 100%;
+}
+
+/*Contact Us*/
+
+#ContactUs .FormGroup{
+    width: 100%;
+}
+
+.FormGroup textarea{
+    height: 160px;
+}
+
+.FormGroup textarea:focus ~ label,
+.FormGroup textarea:valid ~ label {
+    top: 10%;
+    font-size: 12px;
+    color: rgb(1, 72, 75);
+}
+
+.h-captcha{
+    margin: 20px 0px 40px;
 }
