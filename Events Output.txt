@@ -1,0 +1,89 @@
+	<div class="hl Width80"></div>
+
+	<div class="Event Width80">
+		<div class="FlexRow">
+			<div class="TextContainer" id="Date">
+				<p class="TextCenter BlackText Weight700 Size24 TextLeft">30/5/2024</p>
+			</div>
+
+			<div class="TextContainer" id="Details">
+				<h2 class="TextCenter BlackText Weight700 Size24 TextLeft">Rainbow Reads</h2>
+				<input type="checkbox" id="EventToggle0" /> <label for="EventToggle0" class="EventToggleLabel Weight700">Event Details</label>
+				<div class="ExpandableDetails">
+					<p class="TextCenter BlackText Weight400 Size18 TextLeft">Join the friendly Sheppey Is Ours team to chat LGBTQIA+ books, media, games and more! Every other Thursday and the last Saturday of every month.</p>
+				</div>
+			</div>
+
+			<div class="TextContainer" id="Time">
+				<p class="TextCenter BlackText Weight700 Size24 TextRight">2:30 PM - 4:30 PM</p>
+				<p class="TextCenter BlackText Weight400 Size18 TextRight">Sheppey Gateway<br>38-42 High Street, Sheerness ME12 1N</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="hl Width80"></div>
+
+	<div class="Event Width80">
+		<div class="FlexRow">
+			<div class="TextContainer" id="Date">
+				<p class="TextCenter BlackText Weight700 Size24 TextLeft">13/6/2024</p>
+			</div>
+
+			<div class="TextContainer" id="Details">
+				<h2 class="TextCenter BlackText Weight700 Size24 TextLeft">Rainbow Reads</h2>
+				<input type="checkbox" id="EventToggle1" /> <label for="EventToggle1" class="EventToggleLabel Weight700">Event Details</label>
+				<div class="ExpandableDetails">
+					<p class="TextCenter BlackText Weight400 Size18 TextLeft">Join the friendly Sheppey Is Ours team to chat LGBTQIA+ books, media, games and more! Every other Thursday and the last Saturday of every month.</p>
+				</div>
+			</div>
+
+			<div class="TextContainer" id="Time">
+				<p class="TextCenter BlackText Weight700 Size24 TextRight">3:30 PM - 5:30 PM</p>
+				<p class="TextCenter BlackText Weight400 Size18 TextRight">Sheppey Gateway<br>38-42 High Street, Sheerness ME12 1N</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="hl Width80"></div>
+
+	<div class="Event Width80">
+		<div class="FlexRow">
+			<div class="TextContainer" id="Date">
+				<p class="TextCenter BlackText Weight700 Size24 TextLeft">27/6/2024</p>
+			</div>
+
+			<div class="TextContainer" id="Details">
+				<h2 class="TextCenter BlackText Weight700 Size24 TextLeft">Rainbow Reads</h2>
+				<input type="checkbox" id="EventToggle2" /> <label for="EventToggle2" class="EventToggleLabel Weight700">Event Details</label>
+				<div class="ExpandableDetails">
+					<p class="TextCenter BlackText Weight400 Size18 TextLeft">Join the friendly Sheppey Is Ours team to chat LGBTQIA+ books, media, games and more! Every other Thursday and the last Saturday of every month.</p>
+				</div>
+			</div>
+
+			<div class="TextContainer" id="Time">
+				<p class="TextCenter BlackText Weight700 Size24 TextRight">4:30 PM - 6:30 PM</p>
+				<p class="TextCenter BlackText Weight400 Size18 TextRight">Sheppey Gateway<br>38-42 High Street, Sheerness ME12 1N</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="hl Width80"></div>
+
+	<div class="Event Width80">
+		<div class="FlexRow">
+			<div class="TextContainer" id="Date">
+				<p class="TextCenter BlackText Weight700 Size24 TextLeft">29/6/2024</p>
+			</div>
+
+			<div class="TextContainer" id="Details">
+				<h2 class="TextCenter BlackText Weight700 Size24 TextLeft">Swale Pride</h2>
+			</div>
+
+			<div class="TextContainer" id="Time">
+				<p class="TextCenter BlackText Weight700 Size24 TextRight">10:00 AM</p>
+				<p class="TextCenter BlackText Weight400 Size18 TextRight">Beachfileds, Sheerness<br></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="hl Width80"></div>

@@ -22,28 +22,41 @@
     <!--Contact Us-->
     <section class="FlexColumn" id="ContactUs">
         <h2 class="BlackText Weight700 Size48">Contact Us</h2>
-        <div class="FlexRow">
-            
-            <div class="TextContainer Width30">
-                <h2 class="BlackText Weight700 Size36">Find more ways to help!</h2>
-                <p class="GreyText Weight400 Size24">Our ability to run Sheppey is Ours! is only as strong as the community that holds it up. Together, we can do more than we can do alone. Let's bring our abilities and passions together to create real change.</p>
-                <p class="GreyText Weight400 Size24">There are many ways to join us and take part in creating a better Sheppey. Contact us to find out more about volunteer opportunities, events, and ways that you can get our message to your friends and family.</p>
-            </div>
+
+        <div class="TextContainer Width80 TextCenter">
+            <h2 class="BlackText Weight700 Size36">Find more ways to help!</h2>
+            <p class="GreyText Weight400 Size24">Our ability to run Sheppey is Ours! is only as strong as the community that holds it up. Together, we can do more than we can do alone. Let's bring our abilities and passions together to create real change.</p>
+            <p class="GreyText Weight400 Size24">There are many ways to join us and take part in creating a better Sheppey. Contact us to find out more about volunteer opportunities, events, and ways that you can get our message to your friends and family.</p>
+        </div>
+
+        <div class="hl"></div>
+
+        <div class="FlexRow Width80">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1045.6694799534234!2d0.7643366203293288!3d51.439147967450964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d929e52de57731%3A0x8bf22845e9becce2!2sLaunch%20It%20Kent%20Masters%20House!5e0!3m2!1sen!2suk!4v1717077910706!5m2!1sen!2suk" width="40%" style="aspect-ratio: 1/1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <div class="vl"></div>
 
-            <div class="TextContainer Width30 ">
+            <div class="TextContainer">
                 <h2 class="BlackText Weight700 Size36">Contact Details</h2>
 
-                <p class="GreyText Weight400 Size24">Phone:</p>
-                <p class="GreenText Weight400 Size24">07902209515</p>
-
-                <p class="GreyText Weight400 Size24">General Email:</p>
-                <p class="GreenText Weight400 Size24">general@sheppeyisours.co.uk</p>
-
-                <p class="GreyText Weight400 Size24">Office:</p>
-                <p class="GreenText Weight400 Size24">Masters House, Trinity Rd<br>Sheerness, ME12 2PF</p>
+                <p>
+                    <span class="GreyText Weight400 Size24">Phone:<br></span>
+                    <a href="tel:07902209515" class="GreenText Weight400 Size24">07902209515</a>
+                </p>
+                
+                <p>
+                    <span class="GreyText Weight400 Size24">General Email:<br></span>
+                    <a href="mailto:general@sheppeyisours.co.uk" class="GreenText Weight400 Size24">general@sheppeyisours.co.uk</a>    
+                </p>
+                
+                <p>
+                    <span class="GreyText Weight400 Size24">Office:<br></span>
+                    <a href="https://www.google.com/maps?ll=51.439258,0.764082&z=18&t=m&hl=en&gl=GB&mapclient=embed&cid=10084166796375411938" class="GreenText Weight400 Size24">Masters House, Trinity Rd<br>Sheerness, ME12 2PF</a>    
+                </p>
+                
             </div>
+           
         </div>
 
         <div class="hl"></div>
@@ -57,30 +70,29 @@
                 <input type="hidden" name="from_name" value="Contact Us Form">
 
                 <div class="FormGroup">
-                    <input id="name" name="name" type="text" required />
+                    <input id="name" name="name" type="text" placeholder=" "/>
                     <label class="NewsletterLabel" for="email">Name</label>
                 </div>
 
                 <div class="FormGroup">
-                    <input id="email" name="email" type="email" required />
+                    <input id="email" name="email" type="email" placeholder=" "/>
                     <label class="NewsletterLabel" for="email">Email</label>
                 </div>
 
                 <div class="FormGroup">
-                    <input id="subject" name="subject" type="subject" required />
-                    <label class="NewsletterLabel" for="subject">Subject</label>
+                    <input id="subject" name="subject" type="subject" placeholder=" " required />
+                    <label class="NewsletterLabel" for="subject">Subject*</label>
                 </div>
 
                 <div class="FormGroup">
                     <textarea id="message" name="message" required></textarea>
-                    <label class="NewsletterLabel" for="email">Message</label>
+                    <label class="NewsletterLabel" for="email">Message*</label>
                 </div>
 
-                <div class="FlexColumn">
+                <div id="ContactSubmit" class="FlexColumn">
                     <div class="h-captcha" data-captcha="true"></div>
                     <button class="MoreButton WhiteText Weight700 Size14" type="submit">Submit Form</button>
                 </div>
-            
             </form>
         </div>
         <!-- Required for hCaptcha -->
@@ -120,6 +132,7 @@
     </div>
 
     <!--Newsletter Signup Section-->
+    <!--
     <section id="NewsletterSignup">
         <div class="FlexColumn">
             <h2 class="BlackText TextCenter Size36 Weight700">Want to be involved?</h2>
@@ -127,13 +140,14 @@
 
             <form class="FlexRow">
                 <div class="FormGroup">
-                    <input id="email" name="email" type="email" required />
+                    <input id="email" name="email" type="email" placeholder=" " required />
                     <label class="NewsletterLabel" for="email">Email</label>
                 </div>
                 <input class="NewsletterSubscribe  Weight700 Size14" type="submit" value="SIGN UP">
             </form>
         </div>
     </section>
+    -->
 
     <!--Footer-->
     <footer>
