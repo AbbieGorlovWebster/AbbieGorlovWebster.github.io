@@ -345,8 +345,9 @@ ul, ol{
 }
 
 /*Welcome Section, CoCreationCycle Section, AboutUs Section, Our Commitments Section*/
-#CoCreationCycle .FlexRow{
-    height: 900px;
+
+#Welcome{
+    margin-top: 30px;
 }
 
 #Welcome h2, #CoCreationCycle h2{
