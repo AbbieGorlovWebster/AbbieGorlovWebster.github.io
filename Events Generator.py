@@ -22,8 +22,10 @@ with open('E:\Sheppey Is Ours Website\AbbieGorlovWebster.github.io\Events.csv') 
             
             if(row[6]!=""):
                 print("\t\t\t\t<input type=\"checkbox\" id=\"EventToggle",line_count,"\" /> <label for=\"EventToggle",line_count,"\" class=\"EventToggleLabel Weight700\">Event Details</label>", sep="", file=f)
+                if(row[7]!=""):
+                    print("\t\t\t\t<a class=\"MoreButton Weight700\" href=\"",row[7],"\">Book Your Ticket Here</a>", sep="", file=f)
                 print("\t\t\t\t<div class=\"ExpandableDetails\">", file=f)
-                print("\t\t\t\t\t<p class=\"TextCenter BlackText Weight400 Size18 TextLeft\">",row[6],"</p>",sep="", file=f)
+                print("\t\t\t\t\t",row[6],sep="", file=f)
                 print("\t\t\t\t</div>", file=f)
             print("\t\t\t</div>\n", file=f)
             
